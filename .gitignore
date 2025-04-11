@@ -23,19 +23,24 @@
 hs_err_pid*
 replay_pid*
 
-# NetBeans specific #
+# Ignorar arquivos e pastas do NetBeans
 nbproject/private/
-build/
 nbbuild/
 dist/
-nbdist/
-nbactions.xml
-nb-configuration.xml
+build/
 
-# Class Files #
+# Arquivos de configuração do projeto NetBeans
+**/nbproject/build-impl.xml
+**/nbproject/genfiles.properties
+**/nbproject/project.properties
+**/nbproject/project.xml
+**/lib/nblibraries.properties
+**/manifest.mf
+**/build.xml
+
+# Arquivos de backup e temporários
+*.bak
 *.class
+*.log
+*.tmp
 
-# Package Files #
-*.jar
-*.war
-*.ear
